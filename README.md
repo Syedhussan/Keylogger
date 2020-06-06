@@ -17,5 +17,5 @@ open command prompt, type pyinstaller yourfilenamewith extension --onefile eg: p
 A 'dist' named folder will be created and you will find your exe file inside it.
 
 
-## NOTE: THIS SHOULD BE USED ONLY FOR ETHICAL PURPOSE.
+### NOTE: THIS SHOULD BE USED ONLY FOR ETHICAL PURPOSE.
 
