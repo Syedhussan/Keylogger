@@ -15,7 +15,7 @@ To change this code into exe file:
 module required: pyinstaller. 
 open command prompt, type pyinstaller yourfilenamewith extension --onefile eg: pyinstaller backdoor.py --onefile
 
-A 'dist' named folder will be created and you will find your exe file inside it.
+A 'dist' named folder will be created and you will find your .exe file inside it.
 
 
 ### NOTE: THIS SHOULD BE USED ONLY FOR ETHICAL PURPOSE.
