@@ -1,3 +1,5 @@
+[![HitCount](http://hits.dwyl.com/itsrohanvj/itsrohanvj/Excel-file-comparisor.svg)](http://hits.dwyl.com/itsrohanvj/itsrohanvj/Excel-file-comparisor)
+
 ## As the name suggests, its an application which taps into victim's keyboard.
 
 ### It will keep a track of all the buttons pressed on a keyboard and send you updates via mail.
